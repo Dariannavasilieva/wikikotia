@@ -12,9 +12,9 @@ def addCSVtoGit(filename):
     os.system('git branch -M main')
     print('4')
     #os.system('git remote add origin https://github.com/Dariannavasilieva/wikikotia.git')
-    os.system('git remote set-url origin https://Dariannavasilieva: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@github.com/Dariannavasilieva/wikikotia.git')
+    os.system('git remote set-url origin https://Dariannavasilieva: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@github.com/Dariannavasilieva/wikikotia.git')
     print('5')
-    os.system('git push -u origin main')
+    os.system('git push -f origin main')
     print('done')
               
 
